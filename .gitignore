@@ -3,3 +3,4 @@
 logs/
 test_*
 __pycache__
+instant*.json
