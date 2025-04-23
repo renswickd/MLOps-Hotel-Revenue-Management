@@ -7,3 +7,4 @@ instant*.json
 artifacts/
 *.egg-info/
 *workspace
+mlruns/
