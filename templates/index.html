@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width , initial=scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static' , filename='style.css') }}">
-    <title>HOTEL RESERVATION PREDICTION ❤️</title>
+    <title>HOTEL RESERVATION PREDICTION</title>
 </head>
 
 
@@ -135,9 +135,9 @@
     {% if prediction is not none %}
     <div class="result">
         {% if prediction == 0 %}
-        <p>The Customer is going to cancel his reservation</p>
+        <p>The Customer reservation is likely to a valid one</p>
         {% elif prediction == 1 %}
-        <p>The Customer is not going to cancel his reservation</p>
+        <p>The Customer is likely to cancel the reservation. Action required for this reservation</p>
         {% endif %}
     </div>
     {% endif %}
